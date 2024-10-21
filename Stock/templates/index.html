@@ -1,0 +1,40 @@
+{% extends "template.html" %}
+{% block heading %}
+MAIN
+{% endblock %}
+
+
+{% block body %}
+<div class="container" style="color: black;">
+<img src="../static/assets/logofull.png" style="margin-top: 20px;">
+<div class="row justify-content-center">
+    <div class="col">
+        <div class="shadow-lg p-3 mb-5 bg-white rounded justify-content-center mx-auto" style="width: 15rem; height: 15rem;">
+            <h1 class="card-title">Prédire</h1>
+            <div class="card-text" style="color: black;">
+                Cliquez ici pour utiliser le Prédicteur de Marché Boursier
+            </div>
+            <a href="/predict" class="btn btn-primary" style="margin-top: 10px; font-size: large; width: 100%;">Prédire</a>
+        </div>
+    </div>
+    <div class="col">
+        <div class="shadow-lg p-3 mb-5 bg-white rounded justify-content-center mx-auto" style="width: 18rem; height: 15rem;">
+            <h1 class="card-title">Informations</h1>
+            <div class="card-text" style="color: black;">
+                Cliquez ici pour parcourir et vérifier les informations sur les actions qui vous intéressent
+            </div>
+            <a href="/stock" class="btn btn-primary" style="margin-top: 10px; font-size: large; width: 100%;">Parcourir</a>
+        </div>
+    </div>
+    <div class="col">
+        <div class="shadow-lg p-3 mb-5 bg-white rounded justify-content-center mx-auto" style="width: 15rem; height: 15rem;">
+            <h1 class="card-title">Agent</h1>
+            <div class="card-text" style="color: black;">
+                Cliquez ici pour utiliser l'Agent de Trading du Marché Boursier
+            </div>
+            <a href="/trade" class="btn btn-primary" style="margin-top: 10px; font-size: large; width: 100%;">Trader</a>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

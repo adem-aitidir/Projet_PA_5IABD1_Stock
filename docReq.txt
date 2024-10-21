@@ -1,0 +1,14 @@
+Django==3.1.13
+yfinance
+numpy
+tensorboard==2.5.0
+tensorflow==2.5.0
+tensorflow-estimator==2.5.0
+seaborn==0.11.1
+pandas
+pandas-datareader==0.9.0
+matplotlib
+scikit-learn
+mpld3
+tqdm
+protobuf==3.20.0
